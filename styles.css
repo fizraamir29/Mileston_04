@@ -1,0 +1,15 @@
+/* styles.css */
+
+/* Editable Elements Styling */
+.editable {
+    border: 1px dashed transparent;
+    padding: 5px;
+    transition: border-color 0.3s ease;
+    cursor: text;
+}
+
+.editable:focus {
+    border-color: #007bff;
+    outline: none;
+    background-color: #f8f9fa;
+}
